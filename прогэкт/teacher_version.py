@@ -26,6 +26,11 @@ def process_num1_step(message):
         bot.reply_to(message, "Привіт, як справи?")
     elif message.text == 'Все добре':
         bot.reply_to(message, "Вослухай цю музику: https://www.youtube.com/watch?v=EH1I-8KyI9Y")
+    elif message.text == 'Не дуже':
+        bot.reply_to(message, "Гм, зацікавленні в відеоіграх? Тоді рекомендую цей канал: https://www.youtube.com/@buldjat")
+    elif message.text == 'Не дуже':
+        bot.reply_to(message, "Гм, зацікавленні в відеоіграх? Тоді рекомендую цей канал: https://www.youtube.com/@buldjat")
+    
 
 if __name__ == '__main__':
     bot.polling(none_stop=True)
